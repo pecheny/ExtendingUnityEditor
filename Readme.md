@@ -1,12 +1,12 @@
 # Extending Unity Editor
 
 When i just started to work with Unity i'd tried to extend Unity editor several times in order to do my current work faster.
-I couldn't find structured and complite guide on conding for the editor. There was a lot of articles about particular issues
+I couldn't find structured and complete guide on coding for the editor. There was a lot of articles about particular issues
 but it would not help me in my current task so i rather got back to manual work on my current tasks in order to finish them in time.
 There also were cases when i resolved some tasks but in an ugly way and with inappropriate tools or APIs since i didn't know about
 those which can fit my needs.
 
-Spending more time on working with editor i had learned more and more ways to use it. I think the best developement manual is working example.
+Spending more time on working with editor i had learned more and more ways to use it. I think the best development manual is working example.
 But only in case if it clean and short. So i decided to collect examples of appliance different ways of extending Unity in hope you can examine it
 all and choose appropriate for you tasks. So i guess i can call it a little Cookbook for extending Unity editor.
 
@@ -53,7 +53,7 @@ For example, you have objects:
 3. Fence (1)
 4. Fence (2)
 
-In this case you may want to group objecs by part before first whitespace or "(" character.
+In this case you may want to group objects by part before first whitespace or "(" character.
 Open "02-EditorScriptingBasics.unity" scene, select objects and call "Window/Distribute items by name" menu item.
 
 ### Distribute objects in space
@@ -107,7 +107,7 @@ The example of laying out most common GUI elements in Unity editor.
 
 ![](https://raw.githubusercontent.com/pecheny/ExtendingUnityEditor/master/Assets/07-PropertyDrawer/Preview/preview.png)
 
-This example shows how to make customization for renderind field of exact type in any MonoBehaviour. In this case it would be bit mask picker (like unity layers) where you can mark channels on different objects and then check if any two of them crosses or not.
+This example shows how to make customization for rendering field of exact type in any MonoBehaviour. In this case it would be bit mask picker (like unity layers) where you can mark channels on different objects and then check if any two of them crosses or not.
 You can see the application of this property drawer in the following sample "08-CustomInspector/AnimationSample"
 
 ## Animation Sample
@@ -117,7 +117,7 @@ You can see the application of this property drawer in the following sample "08-
 In this sample you will able to control state of the children list filtered by bit mask.
 I. e. you set "channel" values for child and for controller and if controller and child have at least one same channel, the controller would handle such child.
 The custom inspector includes a button which would create child with all controller channels selected.
-This sample also involves custom propert fileld drawer and OnValidate().
+This sample also involves custom property field drawer and OnValidate().
 
 ## Reorderable List
 
