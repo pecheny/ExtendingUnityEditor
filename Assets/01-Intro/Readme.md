@@ -1,0 +1,1 @@
+Demonstration of the standard inspector abilities based on built-it Unity types and meta-attributes.
