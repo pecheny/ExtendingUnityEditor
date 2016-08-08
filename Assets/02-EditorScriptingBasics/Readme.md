@@ -4,8 +4,8 @@
 
 ![](https://raw.githubusercontent.com/pecheny/ExtendingUnityEditor/master/Assets/02-EditorScriptingBasics/Preview/preview-01.png)
 
-Sets up the build configuration to include the opened scene only, add name, make build and run it.
-Can be fount in menu "Build tools/Build and run current scene" or by pressing alt+x.
+Sets up the build configuration to include the opened scene only, adds name, makes build and runs it.
+Can be found in menu "Build tools/Build and run current scene" or by pressing alt+x.
 
 ![](https://raw.githubusercontent.com/pecheny/ExtendingUnityEditor/master/Assets/02-EditorScriptingBasics/Preview/preview-03.png)
 
@@ -13,7 +13,7 @@ Can be fount in menu "Build tools/Build and run current scene" or by pressing al
 
 ![](https://raw.githubusercontent.com/pecheny/ExtendingUnityEditor/master/Assets/02-EditorScriptingBasics/Preview/preview-02.png)
 
-Script for processing scenes (from asset store for example) which consist a lot of objects of several types.
+Script for processing scenes (from asset store for example) which consist of many objects of several types.
 Objects can be separated by name into groups. You need to define pattern to define a part of the name which would be used as basis for grouping.
 For example, you have objects:
 
@@ -36,5 +36,5 @@ Correct working granted only if all selected objects have same parent.
 
 ![](https://raw.githubusercontent.com/pecheny/ExtendingUnityEditor/master/Assets/02-EditorScriptingBasics/Preview/preview-04.png)
 
-Makes new gameobject called "Group" and puts all selected ones to it as a children. Press Ctrl+g or select in the menu.
+Makes new gameobject called "Group" and puts all selected ones to it as a children. Press Ctrl+g or choose in the menu.
 
