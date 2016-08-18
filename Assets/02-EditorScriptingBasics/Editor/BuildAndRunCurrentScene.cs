@@ -8,8 +8,9 @@ using UnityEngine.SceneManagement;
 public class BuildAndRunCurrentScene {
     [MenuItem("Build tools/Build and run current scene &x")]
     static void  BuildAndRunScene() {
-        Build(EditorSceneManager.GetActiveScene());
-        Run(GetBuildName(EditorSceneManager.GetActiveScene()));
+        var scene = EditorSceneManager.GetActiveScene();
+        Build(scene);
+        Run(GetBuildName(scene));
     }
 
     static void Build(Scene scene) {
@@ -35,7 +36,7 @@ public class BuildAndRunCurrentScene {
     }
 
     static string ComposeExecPath(string buildName) {
-        string execPath = ComposeBuildPath(buildName + buildName )+ ".exe";
+        string execPath = ComposeBuildPath(buildName) + buildName + ".exe";
         execPath = execPath.Replace("/", "\\");
         return execPath;
     }
