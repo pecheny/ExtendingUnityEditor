@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class ReorderableListSample : MonoBehaviour {
     public List<SampleUnit> list = new List<SampleUnit>();
-//    [SerializeField]
-    public SampleUnit sampleUnit;
 }
 
 [Serializable]

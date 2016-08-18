@@ -2,7 +2,6 @@ using UnityEditor;
 using UnityEngine;
 [CustomEditor(typeof(Pathway))]
 public class PathwayEditor : Editor {
-
     void OnSceneGUI() {
         Pathway pathway = target as Pathway;
         for (int i = 0; i < pathway.waypoints.Count; i++) {
@@ -15,5 +14,4 @@ public class PathwayEditor : Editor {
             }
         }
     }
-
 }

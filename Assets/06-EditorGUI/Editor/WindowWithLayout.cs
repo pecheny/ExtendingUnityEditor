@@ -1,7 +1,6 @@
 using UnityEditor;
 using UnityEditor.AnimatedValues;
 using UnityEngine;
-using UnityEngine.Tizen;
 
 public class WindowWithLayout : EditorWindow {
     [MenuItem("Window/Layout examples")]
@@ -95,6 +94,4 @@ public class WindowWithLayout : EditorWindow {
             Debug.Log("Button clicked");
         }
     }
-
-
 }
