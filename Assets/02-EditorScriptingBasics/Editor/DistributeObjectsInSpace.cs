@@ -17,7 +17,6 @@ public class DistributeObjectsInSpace {
         Undo.RecordObjects(items, "Store positions before distribute");
         for (int i = 0; i < items.Length; i++ ) {
             var item = items[i];
-//            Debug.Log(item.name);
             item.position = Vector3.Lerp(start, end, (float)i / (float)(items.Length - 1));
         }
     }
